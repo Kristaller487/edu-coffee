@@ -10,7 +10,7 @@ class Cart{
         $this->cart[$prod] = $prod;
     }
     public function delete($id){
-        unset(this->cart[$id]); #ошибка
+        #unset(this->cart[$id]); #ошибка
     }
 }
 ?>
